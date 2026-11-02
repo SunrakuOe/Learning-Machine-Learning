@@ -1,0 +1,83 @@
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pyvenv.cfg
+pip-selfcheck.json
+
+# Custom virtualenv structures
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# C extensions
+# ==========================================
+*.so
+
+# ==========================================
+# Distribution / packaging / build artifacts
+# ==========================================
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+.venv
+*.env
+*.local
+credentials.json
+
+# ==========================================
+# Testing & Jupyter Notebooks
+# ==========================================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.htmlcov/
+htmlcov/
+.noserc
+.ipynb_checkpoints
+
+# ==========================================
+# Common IDEs and OS junk
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
